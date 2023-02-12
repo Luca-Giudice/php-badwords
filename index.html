@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h2>Badword Form</h2>
+            <form action="result.php" method="GET">
+                <div class="mb-3">
+                    <label for="badword" class="form-label">Parola da censurare</label>
+                    <input type="text" class="form-control" id="badword" name="badword"
+                    placeholder="Parola da censurare">
+                </div>
+                <div class="mb-3">
+                    <label for="paragraph" class="form-label">PAragrafo</label>
+                    <textarea class="form-control" id="paragraph" name="paragraph" rows="3"></textarea>
+                    <button class="btn btn-primary" type="submit">Invia</button>
+                    <button class="btn btn-secondary" type="reset">Annulla</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    
+</body>
+</html>
